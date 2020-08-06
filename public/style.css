@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+label {
+    cursor: pointer;
+    user-select: none;
+}
+
+.counter {
+    font-weight: bold;
+    color: #702507;
+    height: 50px;
+    line-height: 50px;
+}
+
+.bordered {
+    border: 1px solid #702507;
+    box-shadow: inset 1px 1px 0px 0px #702507;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bordered:hover {
+    box-shadow: inset 2px 2px 0px 0px #702507;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #702507;
+    box-shadow: inset 1px 1px 0px 0px #702507;
+    border-radius: 2px;
+    margin-left: 2px;
+    margin-top: 2px;
+    color: #838383;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cell:hover {
+    box-shadow: inset 2px 2px 0px 0px #702507;
+}
+
+.cell-label {
+    font-weight: bold;
+}
+
+.center-flex {
+     display: flex;
+     justify-content: center;
+     padding: 0px;
+}
+
+.vhcenter {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.color_0 {
+    background-color: #BDBDBD;
+    color: black;
+}
+
+.color_1 {
+    background-color: #F44336;
+    color: white;
+}
+
+.color_2 {
+    background-color: #3F51B5;
+    color: white;
+}
+
+.color_3 {
+    background-color: #009688;
+    color: white;
+}
+
+.color_4 {
+    background-color: #795548;
+    color: white;
+}
+
+.color_5 {
+    background-color: #7C4DFF;
+    color: white;
+}
+
+.color_6 {
+    background-color: #FF9800;
+    color: white;
+}
+
+.color_7 {
+    background-color: #FF4081;
+    color: white;
+}
+
+.color_8 {
+    background-color: #9C27B0;
+    color: white;
+}
+
+.color_ {
+    background-image: url("mine.png");
+    background-color: white;
+}
+
+.color_flag {
+    background-image: url("flag.png");
+    background-color: white;
+}
