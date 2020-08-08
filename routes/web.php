@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'FrontendController@index')->name('index');
+Route::get('/', function() {return view('index');});
