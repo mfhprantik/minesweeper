@@ -1,0 +1,19 @@
+.animate-move-center-left {
+    animation-name: move-center-left;
+    animation-duration: 1s;
+}
+
+.animate-move-right-center {
+    animation-name: move-right-center;
+    animation-duration: 1s;
+}
+
+@keyframes move-center-left {
+    0% {transform: translateX(-150%);}
+    100% {transform: translateX(0%);}
+}
+
+@keyframes move-right-center {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(150%);}
+}
